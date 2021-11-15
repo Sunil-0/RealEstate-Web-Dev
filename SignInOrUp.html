@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <div class="sign" id="sign">
+        <button class="signinbtn" onclick="signIn()">Sign In</button>
+        <button class="signupbtn" onclick="signUp()">Sign Up</button>
+    </div>
+    <div class="signin" id="signin">
+        <form action="" class="signIn">
+            <button class="back" onclick="back()">x</button><br>
+
+            <label for="email"><b>Email</b></label><br>
+            <input type="text" placeholder="Enter Email" name="email" required><br>
+
+            <label for="password"><b>password</b></label><br>
+            <input type="password" placeholder="Enter Password" name="psd" required>
+
+            <div class="fp">
+                <a href=""> <p>Forgot password?</p> </a>
+            </div>
+
+            <button class="login_btn">Login</button>
+
+            <hr>
+            
+            <p>or SignUp using</p><br>
+
+            <div class="signIcon">
+                <img id="fb" src="fbIcon.jpeg" alt="FB" onclick="login('f')">
+                <img id="google" src="google.png" alt="Google" onclick="login('g')">
+                <img id="twitter" src="twitter.png" alt="Twitter" onclick="login('t')">
+            </div>
+        </form>
+    </div>
+
+    <div class="signup" id="signup">
+        <form action="" class="signUp">
+            <button class="back" onclick="back()">x</button><br>
+
+            <input type="text" placeholder="First Name" name="First Name" required><br>
+            <input type="text" placeholder="Last Name" name="Last Name"><br>
+            <input type="text" placeholder="Email" name="Email" required><br>
+            <input type="password" Placeholder="Password" name="Password" required><br>
+            <input type="password" Placeholder="ReEnter Password" name="ReEnter Password">
+            
+            <button class="signup_btn">Sign Up</button>
+        </form>    
+    </div>
+</body>
+</html>
