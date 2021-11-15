@@ -5,26 +5,30 @@ body{
     background-attachment: fixed;
 }
 .welcome{
-    width: 200px;
+    margin-top: 15%;
+    margin-left: 30%;
+    width: auto;
     height: 100px;
-    font-size: 70px;
-    color: navy;
+    font-size: 20px;
+    color: white;
 
 }
 .sign{
     
     width: 300px;
-    height: 160px;
-    margin-top: 18%;
+    height: 150px;
+    margin-top: 20px;
     margin-left: 40%;
     border-radius: 10px;
     text-align: center;
+    border: white 1px solid;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 40px 40px 80px navy;
 }
 .sign button{
     width: 200px;
     height: 45px;
-    margin: 20px 20px;
-
+    margin: 15px;
     color: white;
     background: black;
 }
