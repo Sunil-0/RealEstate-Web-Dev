@@ -1,0 +1,65 @@
+body{
+    align-items: center;
+    padding: 50px;
+    background-color: #5cb5fd;
+    margin: 0%;
+}
+.plots{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: white;
+    overflow: hidden;
+    padding: 40px;
+    margin: 0%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px grey;
+}
+.plot{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px auto;
+    grid-template-areas: "image" "text";
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 30px 60px;
+}
+.plot-image img{
+    width: 300px;
+    height: 200px;
+    grid-area: image;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+}
+.plot-text{
+    padding: 0%;
+    
+}
+.plot:hover {
+    box-shadow: 5px 20px 20px rgb(92, 181, 253, 0.9);
+    background-color: #5cb5fd;
+    border: 1px solid white;
+    color: white;
+}
+.plot h2{
+    margin: 0%;
+    font-size: 30px;
+    padding: 3px;
+    
+}
+.plot-content{
+    border-radius: 5px;
+}
+.price{
+    border-bottom: 1px solid white;
+}
+.booking{
+    border-top: 1px solid white;
+}
+.hr{
+    width: 60%;
+}
