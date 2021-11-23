@@ -24,3 +24,24 @@ select{
     background-color: rgb(128, 128, 128, 0.5);
     color: black;
 }
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.checkbox-content{
+    padding-bottom: 3px;
+}
+.fa{
+    margin-right: 5px ;
+    font-size: 25px;
+    color: #5bb2fa;
+}
+.icons{
+    margin: 10px 0px;
+}
+.bookBtn{
+    width: 20%;
+    background-color: #5bb2fa;
+    margin: 30px 40%;
+}
