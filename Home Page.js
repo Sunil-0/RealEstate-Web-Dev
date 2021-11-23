@@ -16,3 +16,6 @@ function showSlides() {
   setTimeout(showSlides, 2500);
 }
 showSlides();
+
+var x = document.getElementsByClassName("price").textContent;
+document.getElementById("price")
