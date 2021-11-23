@@ -18,4 +18,7 @@ function showSlides() {
 showSlides();
 
 var x = document.getElementsByClassName("price").textContent;
-document.getElementById("price")
+price()
+function price(){
+  document.getElementById("Price").innerHTML = x;
+}
