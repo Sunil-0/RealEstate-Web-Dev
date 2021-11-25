@@ -1,0 +1,40 @@
+body{
+    background: url("AboutUsBg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: relative;
+    grid-template-areas: "image";
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 0%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.fa{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.about p{
+    text-align: left;
+    margin: 30px;
+}
