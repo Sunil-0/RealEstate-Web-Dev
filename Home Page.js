@@ -16,3 +16,20 @@ function showSlides() {
   setTimeout(showSlides, 2500);
 }
 showSlides();
+
+function profile(){
+  document.getElementById('profile').style.display = 'block';
+}
+function closeBtn(){
+  document.getElementById('profile').style.display = 'none';
+}
+
+//Cities Java Script
+function payment(){
+  window.open('Payment Page.html')
+}
+
+//Payment Java Script
+function PaymentDone(){
+  alert('Payment Successfully Done')
+}

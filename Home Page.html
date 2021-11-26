@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Home page.css">
 </head>
 <body>
-    <div>
+    <div class="container">
+        <form action="">
+            <div id="profile" class="profile">
+                <p id="closebtn" onclick="closeBtn()">x</p>
+                <i class="fa fa-user"></i><hr>
+                <input type="text" name="fname" id="fname" value="Name as per in login" readonly><br>
+                <input type="email" name="email" id="email" value="Email as per in login" readonly><br>
+                <input type="number" name="password" id="password" value="5464645454" readonly><br>
+                <input type="radio" name="gender" id="gender" checked readonly><label for="male">Male</label>
+                <input type="radio" name="gender" id="gender" readonly><label for="female">Female</label>
+            </div>
+        </form>
         <div class="headline1">
             <p class="currenttime" id="ct"></p>
             <p class="telno">Tel No. +91 0123456789</p>
@@ -16,10 +28,11 @@
         <div class="header">
             <img class="sweethome" src="SweetHome.png" alt="">
             <ul class='headerList'>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="projects">PROJECTS</a></li>
-                <li><a href="about">ABOUT</a></li>
-                <li><a href="contact">CONTACT</a></li>
+                <li><a href="./Home Page.html" class="fa fa-home">HOME</a></li>
+                <li><a href="./Cities.html" class="fa fa-building">PROJECTS</a></li>
+                <li><a href="./AboutUs.html" class="fa fa-info-circle">ABOUT</a></li>
+                <li><a href="./Contact.html" class="fa fa-phone">CONTACT</a></li>
+                <li><a href="#" class="fa fa-user" onclick="profile()"></a></li>
             </ul>
         </div>
 
@@ -34,19 +47,19 @@
         <div class="cities">
 
             <div class="city" onclick="city()">
-                <img class="cityImage" src="city1.png"></img>
+                <a href="./Cities.html"><img class="cityImage" src="city1.png"></img></a>
                 <div class="citytext"><h2>Hyderabad</h2></div>
             </div>
             <div class="city" onclick="city()">
-                <img class="cityImage" src="city2.png"></img>
+                <a href="./Cities.html"><img class="cityImage" src="city2.png"></img></a>
                 <div class="citytext"><h2>Bangalore</h2></div>
             </div>
             <div class="city" onclick="city()">
-                <img class="cityImage" src="city3.png"></img>
+                <a href="./Cities.html"><img class="cityImage" src="city3.png"></img></a>
                 <div class="citytext"><h2>Mumbai</h2></div>
             </div>
             <div class="city" onclick="city()">
-                <img class="cityImage" src="city4.png"></img>
+                <a href="./Cities.html"><img class="cityImage" src="city4.png"></img></a>
                 <div class="citytext"><h2>Delhi</h2></div>
             </div>
 

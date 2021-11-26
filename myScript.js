@@ -25,3 +25,7 @@ function login(x){
         window.open("https://twitter.com/")
     }
 }login();
+
+function HomePage(){
+    window.open('Home page.html')
+}
