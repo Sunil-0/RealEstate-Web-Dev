@@ -27,5 +27,5 @@ function login(x){
 }login();
 
 function HomePage(){
-    window.open('Home page.html')
+    window.open('Home page.html');
 }
