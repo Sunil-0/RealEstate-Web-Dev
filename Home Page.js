@@ -30,6 +30,3 @@ function payment(){
 }
 
 //Payment Java Script
-function PaymentDone(){
-  alert('Payment Successfully Done');
-}
